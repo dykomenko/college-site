@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 35px
+}
+
+.d-none {
+    /* display: none; */
+}
+
+section {
+    max-width: 100%;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 350px;
+}
+
+section .container {
+    max-width: 1440px;
+    display: flex;
+    margin: auto;
+    padding: 5%;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 500px;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.container {
+    background-image: url(img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80%;
+    position: relative;
+}
+
+.first .logo img {
+    max-width: 500px;
+}
+
+.first .container {
+    min-height: 900px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 60px;
+    ;
+    max-width: 850px;
+    font-weight: 900;
+}
+
+h1 {
+    max-width: 700px;
+}
+
+h2 {
+    font-size: 45px
+}
+
+.first h1 {
+    margin-top: 50px
+}
+
+.first p {
+    font-size: 35px
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background: linear-gradient(to right, #00A3E0, #FFD700);
+    background: #00A3E0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: max-content;
+}
+
+
+/* ------------------- */
+/* ------------------- */
+/* ------------------- */
+
+.number1 .container {
+    background-image: url(img/2.jpg);
+    background-size: 56%;
+}
+
+b {
+    font-weight: 900;
+}
+
+ul {
+    max-width: 600px;
+}
+
+ul b {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+li b:before {
+    width: 30px;
+    height: 3px;
+    content: ' ';
+    background-color: #ba3139;
+    position: absolute;
+    left: -55px;
+    vertical-align: middle;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+ul li {
+    margin: 20px 0 20px 60px;
+    list-style: none;
+}
+
+
+
+/* ------------------- */
+/* ------------------- */
+/* ------------------- */
+
+
+.about .container {
+    background-image: url(img/3.jpg);
+    background-size: auto 90%;
+    font-size: 25px;
+
+}
+
+.about .container:before,
+.about~section .container:before {
+    background-image: url(img/4-2.jpg);
+    background-size: 100% auto;
+    content: ' ';
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    position: absolute;
+    max-width: 90%;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 32%;
+    flex-grow: 1;
+    padding-left: 45px;
+    box-sizing: border-box;
+    position: relative
+}
+
+.element:before {
+    content: ' ';
+    width: 18px;
+    background-color: #ba3139;
+    height: 100%;
+    position: absolute;
+    left: 0
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+/* ------------------- */
+/* ------------------- */
+/* ------------------- */
+
+.base .container {
+    background-image: url(img/round.jpg);
+    background-size: 150px;
+    ;
+    font-size: 25px;
+    background-position: 95% 10%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px 0;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    gap: 6%;
+    text-align: center;
+
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 25px;
+    min-width: 250px
+}
+
+.base .slide img {
+    /* max-width: 100%; */
+    height: 55%;
+    object-fit: cover;
+    border: 6px solid white;
+    border-radius: 3px;
+    rotate: -4deg;
+    box-shadow: 0 0 16px 0px #33333366;
+    width: 107%;
+    margin-left: -7%;
+}
+
+.slide p {
+    padding: 0 10px;
+}
+
+/* ------------------- */
+/* ------------------- */
+/* ------------------- */
+
+
+
+.studentlife .container {
+    background-image: url(img/square.jpg);
+    background-size: 150px;
+    ;
+    font-size: 25px;
+    background-position: 95% 10%;
+}
+
+.studentlife .slide {
+    gap: 0;
+}
+
+.studentlife .title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+
+
+/* ------------------- */
+/* ------------------- */
+/* ------------------- */
+
+
+.way .container {
+    background-image: url(img/square.jpg);
+    background-size: 150px;
+    ;
+    font-size: 25px;
+    background-position: 95% 10%;
+}
+
+.num {
+    font-size: 35px;
+    color: #ba3139;
+    font-weight: 800;
+}
+
+.way .title {
+    font-weight: 500;
+    font-size: 35px;
+    flex-basis: 4em;
+}
+
+.way ul b {
+    min-height: 1em;
+    display: inline;
+}
+
+.way .element:before {
+    display: none
+}
+
+
+
+/* ------------------- */
+/* ------------------- */
+/* ------------------- */
+
+
+.program .container {
+    background-image: url(img/round.jpg);
+    background-size: 150px;
+    ;
+    font-size: 25px;
+    background-position: 95% 10%;
+}
+
+.ban {
+    background-color: #ba3139;
+    padding: 20px 40px;
+    color: white;
+}
+
+.program .list {
+    gap: 40px 30px;
+}
+
+.program .element {
+    flex-basis: 25%;
+}
+
+
+
+/* ------------------- */
+/* ------------------- */
+/* ------------------- */
+
+
+
+
+.kafka .container {
+    background-image: url(img/square.jpg);
+    background-size: 150px;
+    ;
+    font-size: 25px;
+    background-position: 95% 10%;
+}
+
+.kafka .element:before {
+    display: none
+}
+
+.kafka .num {
+    font-size: 30px;
+    font-weight: 800;
+    background: #ba3139;
+    width: fit-content;
+    color: white;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
+
+
+/* ------------------- */
+/* ------------------- */
+/* ------------------- */
+
+
+.price .container {
+    background-image: url(img/square.jpg);
+    background-size: 150px;
+    font-size: 25px;
+    background-position: 95% 10%;
+}
+
+
+@media (max-width: 678px) {
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .container {
+        min-height: auto;
+        background-color: #ffffffce;
+        background-blend-mode: color;
+
+        background-size: 110%;
+    }
+
+    .first .container {
+        min-height: auto;
+    }
+
+    .first p {
+        font-size: 18px;
+    }
+
+    .first a {
+        margin: auto
+    }
+
+    .first h1 {
+        margin-top: 40px;
+        /* background: #ffffffa3; */
+        border-radius: 10px;
+        padding: 20px;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    section .container {
+        gap: 20px;
+    }
+
+    .number1 .container {
+
+        background-size: 96%;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .title,
+    .way .title {
+        font-size: 28px;
+        font-weight: 900;
+    }
+
+    .about .container {
+
+        font-size: 21px;
+    }
+
+    .slide {
+
+        flex-grow: 0.7;
+        font-size: 0.9em;
+        font-weight: 500;
+        line-height: 1em;
+    }
+
+    .slide p {
+        padding: 0 10px;
+        font-weight: 400;
+    }
+
+    .way .element,
+    .kafka .element {
+        padding-left: 15px;
+        min-width: 300px;
+    }
+
+    .way .title {
+        flex-basis: 1em;
+    }
+
+    .ban {
+        margin: 20px 0 0 0;
+    }
+
+    .gallery {
+        gap: 30px 0;
+    }
+
+    .base .gallery {
+        gap: 30px;
+
+    }
+
+    .base .slide {
+        gap: 15px;
+        /* flex-grow: 1; */
+        height: fit-content;
+    }
+
+    .base .slide img {
+        margin-left: 0;
+        rotate: 0deg;
+        width: auto
+    }
+
+    .studentlife .slide {
+        gap: 0;
+        flex-grow: 1;
+    }
+
+    .element {
+
+        min-width: 250px;
+    }
+}
